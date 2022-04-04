@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook Form</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="logo"><img src="./img/facebook-logo.jpg" alt=""></div>
+        <div id="headerForm">
+            <form action="login">
+                <div>
+                    <div>
+                        <label for="loginemail">Email:</label><br>
+                        <input type="email" name="loginEmail" id="loginemail">
+                    </div>
+                    <div>
+                        <label for="loginpassword">Password:</label><br>
+                        <input type="password" name="loginpassword" id="loginpassword">
+                    </div>
+                    <button class="btn">LogIn</button>
+                </div>
+
+                <div>
+                    <input type="checkbox" name="loggedIn" id="loggedin">
+                    <label for="loggedin">Keep me logged In</label>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div id="leftBar">
+            <img src="./img/connecting photo.jpg" alt="">
+        </div>
+        <div id="rightBar">
+            <section id="heading">
+                <h2>Sign Up</h2>
+                <h3>its free and always will be</h3>
+            </section>
+
+            <form action="signUp">
+                <hr>
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="reEmail">Re-enter Email:</label>
+                    <input type="email" name="reEmail" id="reEmail">
+                </div>
+                <div>
+                    <label for="password">New Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="sex" id="selectLabel">I am:</label>
+                    <select name="sex" id="sex">
+                        <option value="">Select Sex</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="birthday">birthday</label>
+                    <input type="date" name="day" id="birthday">
+                </div>
+                <div>
+                    <p>Why do i need to provide my birthday?</p>
+                    <p>By clicking Sign Up,you agree to our Terms and condition and that you have read and understand
+                        our
+                        data
+                        use policy
+                    </p>
+                    <button class="btn">Sign Up</button>
+                </div>
+                <hr>
+                <p class="lastP">Create a Page for a celebrity,band or business</p>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>

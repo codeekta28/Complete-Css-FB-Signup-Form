@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    background-color: #5085f7;
+    color: white;
+    height: 33px;
+    padding: 2px 20px;
+    position: relative;
+    top: 6px;
+}
+
+/* header section */
+
+header {
+    background-color: #4867a8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+header button {
+    margin-right: 1rem;
+}
+
+header button:hover {
+    background-color: #4c7fec;
+    cursor: pointer;
+}
+
+#logo img {
+    width: 14em;
+    height: 4em;
+    padding-left: 3em;
+}
+
+form>div {
+    display: flex;
+    margin-top: 10px;
+}
+
+form>div>div {
+    padding-right: 1em;
+    /* padding-bottom: .5em; */
+}
+
+form:last-child {
+    padding-bottom: 10px;
+}
+
+/* leftBar */
+
+main {
+    display: flex;
+}
+
+#leftBar {
+    /* border: 3px solid red; */
+    background-color: orange;
+    width: 60%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#leftBar img {
+    height: 100vh;
+}
+
+/* rightbar */
+
+#rightBar #heading {
+    margin-left: 4rem;
+    line-height: 2rem;
+}
+
+#rightBar {
+    width: 40%;
+    height: 100vh;
+    background-color: #cfd9f0;
+}
+
+#rightBar h2 {
+    padding-top: 3rem;
+    font-size: 2em;
+}
+
+#rightBar form {
+    margin-left: 3rem;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+#rightBar form label {
+    font-weight: 700;
+    padding-right: 1rem;
+    width: 27%;
+    text-align: right;
+}
+
+#rightBar form div:nth-of-type(1) {
+    padding-top: 1rem;
+}
+
+#rightBar form input {
+    text-align: left;
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#rightBar div:nth-of-type(8) {
+    width: 45%;
+    margin-left: 9.7em;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+#rightBar div p:nth-of-type(2) {
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+#rightBar button {
+    background-color: green;
+    width: 50%;
+    margin-top: 1rem;
+    font-size: 1em;
+    border: 1px solid black;
+    margin-bottom: 2em;
+}
+
+#rightBar button:hover {
+    background-color: rgb(1, 102, 1);
+    cursor: pointer;
+}
+
+.lastP {
+    width: 59%;
+    line-height: 17px;
+    margin-left: 9.7em;
+}
+
+select {
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: -12px;
+}
+
+#selectLabel {
+    padding-right: 32px;
+}
